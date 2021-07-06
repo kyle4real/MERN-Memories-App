@@ -7,5 +7,6 @@ router.route("/").get(getPosts);
 router.route("/").post(createPost);
 router.route("/:id").patch(updatePost);
 router.route("/:id").delete(deletePost);
+router.route("/:id/likePost").patch(likePost);
 
 export default router;
