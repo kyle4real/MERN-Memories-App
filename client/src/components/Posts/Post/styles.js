@@ -49,7 +49,4 @@ export default makeStyles({
         display: "flex",
         justifyContent: "space-between",
     },
-    iconMargin: {
-        marginRight: "4px",
-    },
 });
